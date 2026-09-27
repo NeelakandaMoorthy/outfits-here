@@ -1,0 +1,2 @@
+import Header from '../../components/Header'; import Footer from '../../components/Footer';
+export default function Terms(){return <><Header/><main className="section container"><h1 style={{fontSize:48}}>Terms & Conditions</h1><p>Product information, prices and availability may change on third-party stores. Outfits Here does not process purchases directly.</p></main><Footer/></>}
