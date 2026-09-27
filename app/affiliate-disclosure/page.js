@@ -1,0 +1,2 @@
+import Header from '../../components/Header'; import Footer from '../../components/Footer';
+export default function Disclosure(){return <><Header/><main className="section container"><h1 style={{fontSize:48}}>Affiliate Disclosure</h1><p>Some links on Outfits Here are affiliate links. If you purchase through an affiliate link, we may receive a commission at no additional cost to you.</p></main><Footer/></>}
