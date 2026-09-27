@@ -1,4 +1,4 @@
-use client';
+'use client';
 import {useState} from 'react';
 export default function Admin(){
  const [name,setName]=useState(''); const [url,setUrl]=useState(''); const [msg,setMsg]=useState('');
