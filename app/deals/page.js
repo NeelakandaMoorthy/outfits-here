@@ -1,0 +1,2 @@
+import Header from '../../components/Header'; import Footer from '../../components/Footer'; import ProductCard from '../../components/ProductCard'; import {SAMPLE_PRODUCTS} from '../../lib/products';
+export default function Deals(){return <><Header/><main className="section container"><p className="eyebrow">SAVE MORE</p><h1 style={{fontSize:52}}>Best Deals</h1><div className="grid">{SAMPLE_PRODUCTS.filter(p=>p.originalPrice).map(p=><ProductCard key={p.id} product={p}/>)}</div></main><Footer/></>}
