@@ -1,0 +1,2 @@
+import Header from '../../components/Header'; import Footer from '../../components/Footer'; import ProductCard from '../../components/ProductCard'; import {SAMPLE_PRODUCTS} from '../../lib/products';
+export default function Trending(){return <><Header/><main className="section container"><p className="eyebrow">WHAT'S HOT</p><h1 style={{fontSize:52}}>Trending</h1><div className="grid">{SAMPLE_PRODUCTS.filter(p=>p.trending).map(p=><ProductCard key={p.id} product={p}/>)}</div></main><Footer/></>}
