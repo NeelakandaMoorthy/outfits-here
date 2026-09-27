@@ -1,0 +1,2 @@
+import Header from '../../components/Header'; import Footer from '../../components/Footer';
+export default function Privacy(){return <><Header/><main className="section container"><h1 style={{fontSize:48}}>Privacy Policy</h1><p>Outfits Here respects your privacy. We may use basic analytics and browser storage to improve the website. Affiliate links may redirect you to third-party websites.</p></main><Footer/></>}
