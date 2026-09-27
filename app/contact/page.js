@@ -1,0 +1,2 @@
+import Header from '../../components/Header'; import Footer from '../../components/Footer';
+export default function Contact(){return <><Header/><main className="section container"><h1 style={{fontSize:48}}>Contact</h1><p>For general enquiries, please update this page with your preferred contact method.</p></main><Footer/></>}
